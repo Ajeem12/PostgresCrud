@@ -39,7 +39,7 @@ To run the backend server:
 bash
 Copy code
 node server.js
-The backend server should now be running on http://localhost:5000.
+The backend server should now be running on http://localhost:3000.
 
 Frontend Setup and Running Instructions
 1. Prerequisites
@@ -136,4 +136,4 @@ Contact Information
 For any issues or further assistance, feel free to reach out at:
 
 Email: ajeembeg98@gmail.com
-GitHub: github.com/Ajeem12
+GitHub: https://github.com/Ajeem12
