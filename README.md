@@ -16,5 +16,5 @@ A full-stack **CRUD user-based login system** using **JWT (JSON Web Token)** for
 ### **Steps to Set Up the Backend**
 1. **Clone the Repository**
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/Ajeem12/PostgresCrud
    cd backend
