@@ -8,7 +8,7 @@ const UserList = () => {
     const fetchUsers = async () => {
       try {
         const token = localStorage.getItem("token");
-        const res = await axios.get("http://localhost:3000/api/v1/users", {
+        const res = await axios.get("https://postgrescrud-bakend.onrender.com/api/v1/users", {
           headers: { Authorization: token },
         });
         setUsers(res.data);
