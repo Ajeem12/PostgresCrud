@@ -4,8 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node app.js",
     "dev": "nodemon app.js"
+=======
+   "start":"node app.js",
+    "dev":"nodemon app.js"
+>>>>>>> 506cf808e45365cfb7f34e857fff0cade02cba96
   },
   "keywords": [],
   "author": "",
