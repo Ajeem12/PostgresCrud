@@ -8,7 +8,7 @@ const UserProfile = () => {
     const fetchUser = async () => {
       try {
         const token = localStorage.getItem("token");
-        const res = await axios.get("http://localhost:3000/api/v1/users/:id", {
+        const res = await axios.get("https://postgrescrud-bakend.onrender.com/api/v1/users/:id", {
           headers: { Authorization: token },
         });
         setUser(res.data);
